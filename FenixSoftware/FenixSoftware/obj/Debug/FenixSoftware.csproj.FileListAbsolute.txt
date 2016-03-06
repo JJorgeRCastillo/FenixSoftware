@@ -1,1 +1,2 @@
 C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\FenixSoftware\bin\Debug\FenixSoftware.exe.config
+C:\Users\USER\Documents\GitHub\FenixSoftware\FenixSoftware\FenixSoftware\bin\Debug\FenixSoftware.exe.config
