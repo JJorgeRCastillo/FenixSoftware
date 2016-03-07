@@ -1,0 +1,7 @@
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaDatos\obj\Debug\CapaDatos.pdb
