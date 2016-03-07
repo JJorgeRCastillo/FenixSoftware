@@ -1,0 +1,5 @@
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
