@@ -7,7 +7,7 @@ using CapaEntidades.Auditoria;
 
 namespace CapaEntidades
 {
-    public class Persona
+    public class Persona : BaseInfo
     {
         #region ATRIBUTOS
         public int IdPersona { get; set; }

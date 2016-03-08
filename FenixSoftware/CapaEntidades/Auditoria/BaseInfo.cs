@@ -17,7 +17,8 @@ namespace CapaEntidades.Auditoria
 
         public BaseInfo(DateTime FechaCreacion, DateTime FechaActualizacion)
         {
-
+            this.FechaCreacion = FechaCreacion;
+            this.FechaActualizacion = FechaActualizacion;
         }
     }
 }
