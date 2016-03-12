@@ -51,6 +51,18 @@
     <Compile Include="FrmAbrirCaja.Designer.cs">
       <DependentUpon>FrmAbrirCaja.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAsignaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAsignaciones.Designer.cs">
+      <DependentUpon>FrmAsignaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIngresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIngresos.Designer.cs">
+      <DependentUpon>FrmIngresos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,16 +75,40 @@
     <Compile Include="FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVerAsignaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerAsignaciones.Designer.cs">
+      <DependentUpon>FrmVerAsignaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerIngresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerIngresos.Designer.cs">
+      <DependentUpon>FrmVerIngresos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAbrirCaja.resx">
       <DependentUpon>FrmAbrirCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAsignaciones.resx">
+      <DependentUpon>FrmAsignaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIngresos.resx">
+      <DependentUpon>FrmIngresos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerAsignaciones.resx">
+      <DependentUpon>FrmVerAsignaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerIngresos.resx">
+      <DependentUpon>FrmVerIngresos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
