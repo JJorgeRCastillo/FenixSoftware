@@ -37,6 +37,7 @@ namespace FenixSoftware
                     {
                         FrmPrincipal ventana = new FrmPrincipal(objUsuario);
                         ventana.Show();
+                        this.Visible = false;
                     }
                     else
                     {

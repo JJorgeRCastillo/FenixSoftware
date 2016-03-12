@@ -30,3 +30,5 @@ C:\Users\USER\Documents\GitHub\FenixSoftware\FenixSoftware\FenixSoftware\obj\Deb
 C:\Users\USER\Documents\GitHub\FenixSoftware\FenixSoftware\FenixSoftware\obj\Debug\FenixSoftware.exe
 C:\Users\USER\Documents\GitHub\FenixSoftware\FenixSoftware\FenixSoftware\obj\Debug\FenixSoftware.pdb
 C:\Users\USER\Documents\GitHub\FenixSoftware\FenixSoftware\FenixSoftware\obj\Debug\FenixSoftware.FrmAbrirCaja.resources
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\FenixSoftware\obj\Debug\FenixSoftware.FrmAbrirCaja.resources
+C:\Users\JorgePC\Documents\GitHub\FenixSoftware\FenixSoftware\FenixSoftware\obj\Debug\FenixSoftware.FrmPrincipal.resources

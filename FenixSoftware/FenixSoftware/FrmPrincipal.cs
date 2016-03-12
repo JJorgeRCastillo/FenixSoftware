@@ -14,6 +14,8 @@ namespace FenixSoftware
 {
     public partial class FrmPrincipal : Form
     {
+        private FrmAbrirCaja frmAbrirCaja;
+
         public FrmPrincipal(Usuario objUsuario)
         {
             InitializeComponent();
@@ -21,8 +23,6 @@ namespace FenixSoftware
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.Width = jpnPrincipal.Width;
             pictureBox1.Height = jpnPrincipal.Height;
-
-            lblUsuarioLogin2.Text = objUsuario.Nombres + objUsuario.ApPaterno;
         }
 
         private void jpnPrincipal_Resize(object sender, EventArgs e)
@@ -35,9 +35,15 @@ namespace FenixSoftware
 
         private void abrirCajaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmAbrirCaja ventana = new FrmAbrirCaja();
-            ventana.MdiParent = this;
-            ventana.Show();
+            if (frmAbrirCaja == null)
+            {
+                frmAbrirCaja = new FrmAbrirCaja();
+                frmAbrirCaja.Show();
+            }
+            else
+            {
+                frmAbrirCaja.Show();
+            }
 
 
         }

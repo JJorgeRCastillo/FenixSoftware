@@ -33,17 +33,17 @@
             this.groupBoxTipoMoneda = new System.Windows.Forms.GroupBox();
             this.rbtnDolares = new System.Windows.Forms.RadioButton();
             this.groupBoxMonto = new System.Windows.Forms.GroupBox();
+            this.lblSolODolar3 = new System.Windows.Forms.Label();
+            this.lblSolODolar2 = new System.Windows.Forms.Label();
+            this.lblSolODolar1 = new System.Windows.Forms.Label();
+            this.txtCierre = new System.Windows.Forms.TextBox();
+            this.txtInicial = new System.Windows.Forms.TextBox();
+            this.lblEquivalenteResultado = new System.Windows.Forms.Label();
+            this.lblEquivalente = new System.Windows.Forms.Label();
+            this.lblCierre = new System.Windows.Forms.Label();
+            this.lblInicial = new System.Windows.Forms.Label();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
-            this.lblInicial = new System.Windows.Forms.Label();
-            this.lblCierre = new System.Windows.Forms.Label();
-            this.lblEquivalente = new System.Windows.Forms.Label();
-            this.lblEquivalenteResultado = new System.Windows.Forms.Label();
-            this.txtInicial = new System.Windows.Forms.TextBox();
-            this.txtCierre = new System.Windows.Forms.TextBox();
-            this.lblSolODolar1 = new System.Windows.Forms.Label();
-            this.lblSolODolar2 = new System.Windows.Forms.Label();
-            this.lblSolODolar3 = new System.Windows.Forms.Label();
             this.groupBoxTipoMoneda.SuspendLayout();
             this.groupBoxMonto.SuspendLayout();
             this.SuspendLayout();
@@ -81,7 +81,7 @@
             this.rbtnDolares.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbtnDolares.ForeColor = System.Drawing.Color.Black;
             this.rbtnDolares.Location = new System.Drawing.Point(35, 58);
-            this.rbtnDolares.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtnDolares.Margin = new System.Windows.Forms.Padding(2);
             this.rbtnDolares.Name = "rbtnDolares";
             this.rbtnDolares.Size = new System.Drawing.Size(81, 25);
             this.rbtnDolares.TabIndex = 2;
@@ -110,6 +110,101 @@
             this.groupBoxMonto.TabStop = false;
             this.groupBoxMonto.Text = "Monto";
             // 
+            // lblSolODolar3
+            // 
+            this.lblSolODolar3.AutoSize = true;
+            this.lblSolODolar3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSolODolar3.ForeColor = System.Drawing.Color.Black;
+            this.lblSolODolar3.Location = new System.Drawing.Point(143, 115);
+            this.lblSolODolar3.Name = "lblSolODolar3";
+            this.lblSolODolar3.Size = new System.Drawing.Size(28, 21);
+            this.lblSolODolar3.TabIndex = 8;
+            this.lblSolODolar3.Text = "S/.";
+            // 
+            // lblSolODolar2
+            // 
+            this.lblSolODolar2.AutoSize = true;
+            this.lblSolODolar2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSolODolar2.ForeColor = System.Drawing.Color.Black;
+            this.lblSolODolar2.Location = new System.Drawing.Point(143, 76);
+            this.lblSolODolar2.Name = "lblSolODolar2";
+            this.lblSolODolar2.Size = new System.Drawing.Size(28, 21);
+            this.lblSolODolar2.TabIndex = 7;
+            this.lblSolODolar2.Text = "S/.";
+            // 
+            // lblSolODolar1
+            // 
+            this.lblSolODolar1.AutoSize = true;
+            this.lblSolODolar1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSolODolar1.ForeColor = System.Drawing.Color.Black;
+            this.lblSolODolar1.Location = new System.Drawing.Point(143, 41);
+            this.lblSolODolar1.Name = "lblSolODolar1";
+            this.lblSolODolar1.Size = new System.Drawing.Size(28, 21);
+            this.lblSolODolar1.TabIndex = 6;
+            this.lblSolODolar1.Text = "S/.";
+            // 
+            // txtCierre
+            // 
+            this.txtCierre.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtCierre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCierre.Location = new System.Drawing.Point(206, 73);
+            this.txtCierre.Name = "txtCierre";
+            this.txtCierre.Size = new System.Drawing.Size(100, 29);
+            this.txtCierre.TabIndex = 5;
+            // 
+            // txtInicial
+            // 
+            this.txtInicial.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtInicial.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInicial.Location = new System.Drawing.Point(206, 38);
+            this.txtInicial.Name = "txtInicial";
+            this.txtInicial.Size = new System.Drawing.Size(100, 29);
+            this.txtInicial.TabIndex = 4;
+            // 
+            // lblEquivalenteResultado
+            // 
+            this.lblEquivalenteResultado.AutoSize = true;
+            this.lblEquivalenteResultado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEquivalenteResultado.ForeColor = System.Drawing.Color.Black;
+            this.lblEquivalenteResultado.Location = new System.Drawing.Point(202, 115);
+            this.lblEquivalenteResultado.Name = "lblEquivalenteResultado";
+            this.lblEquivalenteResultado.Size = new System.Drawing.Size(19, 21);
+            this.lblEquivalenteResultado.TabIndex = 3;
+            this.lblEquivalenteResultado.Text = "...";
+            // 
+            // lblEquivalente
+            // 
+            this.lblEquivalente.AutoSize = true;
+            this.lblEquivalente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEquivalente.ForeColor = System.Drawing.Color.Black;
+            this.lblEquivalente.Location = new System.Drawing.Point(31, 115);
+            this.lblEquivalente.Name = "lblEquivalente";
+            this.lblEquivalente.Size = new System.Drawing.Size(90, 21);
+            this.lblEquivalente.TabIndex = 2;
+            this.lblEquivalente.Text = "Equivalente";
+            // 
+            // lblCierre
+            // 
+            this.lblCierre.AutoSize = true;
+            this.lblCierre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCierre.ForeColor = System.Drawing.Color.Black;
+            this.lblCierre.Location = new System.Drawing.Point(31, 76);
+            this.lblCierre.Name = "lblCierre";
+            this.lblCierre.Size = new System.Drawing.Size(52, 21);
+            this.lblCierre.TabIndex = 1;
+            this.lblCierre.Text = "Cierre";
+            // 
+            // lblInicial
+            // 
+            this.lblInicial.AutoSize = true;
+            this.lblInicial.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInicial.ForeColor = System.Drawing.Color.Black;
+            this.lblInicial.Location = new System.Drawing.Point(31, 38);
+            this.lblInicial.Name = "lblInicial";
+            this.lblInicial.Size = new System.Drawing.Size(50, 21);
+            this.lblInicial.TabIndex = 0;
+            this.lblInicial.Text = "Inicial";
+            // 
             // btnRegistrar
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.White;
@@ -131,103 +226,8 @@
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(129, 42);
             this.btnCerrar.TabIndex = 5;
-            this.btnCerrar.Text = "CERRAR";
+            this.btnCerrar.Text = "CERRAR CAJA";
             this.btnCerrar.UseVisualStyleBackColor = false;
-            // 
-            // lblInicial
-            // 
-            this.lblInicial.AutoSize = true;
-            this.lblInicial.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInicial.ForeColor = System.Drawing.Color.Black;
-            this.lblInicial.Location = new System.Drawing.Point(31, 38);
-            this.lblInicial.Name = "lblInicial";
-            this.lblInicial.Size = new System.Drawing.Size(50, 21);
-            this.lblInicial.TabIndex = 0;
-            this.lblInicial.Text = "Inicial";
-            // 
-            // lblCierre
-            // 
-            this.lblCierre.AutoSize = true;
-            this.lblCierre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCierre.ForeColor = System.Drawing.Color.Black;
-            this.lblCierre.Location = new System.Drawing.Point(31, 76);
-            this.lblCierre.Name = "lblCierre";
-            this.lblCierre.Size = new System.Drawing.Size(52, 21);
-            this.lblCierre.TabIndex = 1;
-            this.lblCierre.Text = "Cierre";
-            // 
-            // lblEquivalente
-            // 
-            this.lblEquivalente.AutoSize = true;
-            this.lblEquivalente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEquivalente.ForeColor = System.Drawing.Color.Black;
-            this.lblEquivalente.Location = new System.Drawing.Point(31, 115);
-            this.lblEquivalente.Name = "lblEquivalente";
-            this.lblEquivalente.Size = new System.Drawing.Size(90, 21);
-            this.lblEquivalente.TabIndex = 2;
-            this.lblEquivalente.Text = "Equivalente";
-            // 
-            // lblEquivalenteResultado
-            // 
-            this.lblEquivalenteResultado.AutoSize = true;
-            this.lblEquivalenteResultado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEquivalenteResultado.ForeColor = System.Drawing.Color.Black;
-            this.lblEquivalenteResultado.Location = new System.Drawing.Point(202, 115);
-            this.lblEquivalenteResultado.Name = "lblEquivalenteResultado";
-            this.lblEquivalenteResultado.Size = new System.Drawing.Size(19, 21);
-            this.lblEquivalenteResultado.TabIndex = 3;
-            this.lblEquivalenteResultado.Text = "...";
-            // 
-            // txtInicial
-            // 
-            this.txtInicial.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtInicial.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtInicial.Location = new System.Drawing.Point(206, 38);
-            this.txtInicial.Name = "txtInicial";
-            this.txtInicial.Size = new System.Drawing.Size(100, 29);
-            this.txtInicial.TabIndex = 4;
-            // 
-            // txtCierre
-            // 
-            this.txtCierre.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.txtCierre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCierre.Location = new System.Drawing.Point(206, 73);
-            this.txtCierre.Name = "txtCierre";
-            this.txtCierre.Size = new System.Drawing.Size(100, 29);
-            this.txtCierre.TabIndex = 5;
-            // 
-            // lblSolODolar1
-            // 
-            this.lblSolODolar1.AutoSize = true;
-            this.lblSolODolar1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSolODolar1.ForeColor = System.Drawing.Color.Black;
-            this.lblSolODolar1.Location = new System.Drawing.Point(143, 41);
-            this.lblSolODolar1.Name = "lblSolODolar1";
-            this.lblSolODolar1.Size = new System.Drawing.Size(28, 21);
-            this.lblSolODolar1.TabIndex = 6;
-            this.lblSolODolar1.Text = "S/.";
-            // 
-            // lblSolODolar2
-            // 
-            this.lblSolODolar2.AutoSize = true;
-            this.lblSolODolar2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSolODolar2.ForeColor = System.Drawing.Color.Black;
-            this.lblSolODolar2.Location = new System.Drawing.Point(143, 76);
-            this.lblSolODolar2.Name = "lblSolODolar2";
-            this.lblSolODolar2.Size = new System.Drawing.Size(28, 21);
-            this.lblSolODolar2.TabIndex = 7;
-            this.lblSolODolar2.Text = "S/.";
-            // 
-            // lblSolODolar3
-            // 
-            this.lblSolODolar3.AutoSize = true;
-            this.lblSolODolar3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSolODolar3.ForeColor = System.Drawing.Color.Black;
-            this.lblSolODolar3.Location = new System.Drawing.Point(143, 115);
-            this.lblSolODolar3.Name = "lblSolODolar3";
-            this.lblSolODolar3.Size = new System.Drawing.Size(28, 21);
-            this.lblSolODolar3.TabIndex = 8;
-            this.lblSolODolar3.Text = "S/.";
             // 
             // FrmAbrirCaja
             // 
@@ -241,6 +241,7 @@
             this.Controls.Add(this.groupBoxTipoMoneda);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FrmAbrirCaja";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Abrir Caja";
