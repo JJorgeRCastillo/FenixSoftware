@@ -32,43 +32,45 @@
             this.rbtnDolares = new System.Windows.Forms.RadioButton();
             this.rbtnSoles = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.txtMonto = new System.Windows.Forms.TextBox();
-            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.RichTextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
             this.lblMoneda = new System.Windows.Forms.Label();
-            this.lblEquivalenteResultado = new System.Windows.Forms.Label();
-            this.lblEquivalente = new System.Windows.Forms.Label();
-            this.lblTipoCambio = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblCodigo = new System.Windows.Forms.Label();
+            this.lblImporte = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnVerIngresos = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblSunat = new System.Windows.Forms.Label();
+            this.lblManual = new System.Windows.Forms.Label();
+            this.txtSunat = new System.Windows.Forms.TextBox();
+            this.txtManual = new System.Windows.Forms.TextBox();
+            this.txtImporte = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.rbtnDolares);
             this.panel1.Controls.Add(this.rbtnSoles);
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.txtMonto);
-            this.panel1.Controls.Add(this.txtCodigo);
+            this.panel1.Controls.Add(this.txtImporte);
+            this.panel1.Controls.Add(this.txtNumero);
             this.panel1.Controls.Add(this.lblMoneda);
-            this.panel1.Controls.Add(this.lblEquivalenteResultado);
-            this.panel1.Controls.Add(this.lblEquivalente);
-            this.panel1.Controls.Add(this.lblTipoCambio);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.lblCodigo);
+            this.panel1.Controls.Add(this.lblImporte);
+            this.panel1.Controls.Add(this.lblNumero);
             this.panel1.Location = new System.Drawing.Point(8, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(465, 333);
+            this.panel1.Size = new System.Drawing.Size(422, 286);
             this.panel1.TabIndex = 4;
             // 
             // rbtnDolares
             // 
             this.rbtnDolares.AutoSize = true;
-            this.rbtnDolares.Location = new System.Drawing.Point(92, 112);
+            this.rbtnDolares.Location = new System.Drawing.Point(163, 55);
             this.rbtnDolares.Name = "rbtnDolares";
             this.rbtnDolares.Size = new System.Drawing.Size(81, 25);
             this.rbtnDolares.TabIndex = 13;
@@ -79,7 +81,7 @@
             // rbtnSoles
             // 
             this.rbtnSoles.AutoSize = true;
-            this.rbtnSoles.Location = new System.Drawing.Point(92, 81);
+            this.rbtnSoles.Location = new System.Drawing.Point(92, 55);
             this.rbtnSoles.Name = "rbtnSoles";
             this.rbtnSoles.Size = new System.Drawing.Size(65, 25);
             this.rbtnSoles.TabIndex = 12;
@@ -89,93 +91,59 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.richTextBox1);
-            this.groupBox1.Location = new System.Drawing.Point(20, 168);
+            this.groupBox1.Controls.Add(this.txtDescripcion);
+            this.groupBox1.Location = new System.Drawing.Point(21, 181);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(432, 148);
+            this.groupBox1.Size = new System.Drawing.Size(389, 91);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Descripción";
             // 
-            // richTextBox1
+            // txtDescripcion
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(7, 29);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(419, 111);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.txtDescripcion.Location = new System.Drawing.Point(6, 28);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(372, 51);
+            this.txtDescripcion.TabIndex = 0;
+            this.txtDescripcion.Text = "";
             // 
-            // txtMonto
+            // txtNumero
             // 
-            this.txtMonto.Location = new System.Drawing.Point(333, 19);
-            this.txtMonto.Name = "txtMonto";
-            this.txtMonto.Size = new System.Drawing.Size(119, 29);
-            this.txtMonto.TabIndex = 8;
-            // 
-            // txtCodigo
-            // 
-            this.txtCodigo.Location = new System.Drawing.Point(92, 19);
-            this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(119, 29);
-            this.txtCodigo.TabIndex = 6;
+            this.txtNumero.Location = new System.Drawing.Point(97, 19);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(97, 29);
+            this.txtNumero.TabIndex = 6;
             // 
             // lblMoneda
             // 
             this.lblMoneda.AutoSize = true;
-            this.lblMoneda.Location = new System.Drawing.Point(16, 97);
+            this.lblMoneda.Location = new System.Drawing.Point(17, 57);
             this.lblMoneda.Name = "lblMoneda";
             this.lblMoneda.Size = new System.Drawing.Size(74, 21);
             this.lblMoneda.TabIndex = 5;
             this.lblMoneda.Text = "Moneda :";
             // 
-            // lblEquivalenteResultado
+            // lblImporte
             // 
-            this.lblEquivalenteResultado.AutoSize = true;
-            this.lblEquivalenteResultado.Location = new System.Drawing.Point(374, 97);
-            this.lblEquivalenteResultado.Name = "lblEquivalenteResultado";
-            this.lblEquivalenteResultado.Size = new System.Drawing.Size(19, 21);
-            this.lblEquivalenteResultado.TabIndex = 4;
-            this.lblEquivalenteResultado.Text = "...";
+            this.lblImporte.AutoSize = true;
+            this.lblImporte.Location = new System.Drawing.Point(228, 22);
+            this.lblImporte.Name = "lblImporte";
+            this.lblImporte.Size = new System.Drawing.Size(72, 21);
+            this.lblImporte.TabIndex = 1;
+            this.lblImporte.Text = "Importe :";
             // 
-            // lblEquivalente
+            // lblNumero
             // 
-            this.lblEquivalente.AutoSize = true;
-            this.lblEquivalente.Location = new System.Drawing.Point(233, 97);
-            this.lblEquivalente.Name = "lblEquivalente";
-            this.lblEquivalente.Size = new System.Drawing.Size(97, 21);
-            this.lblEquivalente.TabIndex = 3;
-            this.lblEquivalente.Text = "Equivalente :";
-            // 
-            // lblTipoCambio
-            // 
-            this.lblTipoCambio.AutoSize = true;
-            this.lblTipoCambio.Location = new System.Drawing.Point(302, 22);
-            this.lblTipoCambio.Name = "lblTipoCambio";
-            this.lblTipoCambio.Size = new System.Drawing.Size(28, 21);
-            this.lblTipoCambio.TabIndex = 2;
-            this.lblTipoCambio.Text = "S/.";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(234, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 21);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Monto :";
-            // 
-            // lblCodigo
-            // 
-            this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(16, 22);
-            this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(67, 21);
-            this.lblCodigo.TabIndex = 0;
-            this.lblCodigo.Text = "Código :";
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Location = new System.Drawing.Point(16, 22);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(75, 21);
+            this.lblNumero.TabIndex = 0;
+            this.lblNumero.Text = "Número :";
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(8, 354);
+            this.btnRegistrar.Location = new System.Drawing.Point(8, 298);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(173, 46);
             this.btnRegistrar.TabIndex = 6;
@@ -184,7 +152,7 @@
             // 
             // btnVerIngresos
             // 
-            this.btnVerIngresos.Location = new System.Drawing.Point(300, 354);
+            this.btnVerIngresos.Location = new System.Drawing.Point(257, 298);
             this.btnVerIngresos.Name = "btnVerIngresos";
             this.btnVerIngresos.Size = new System.Drawing.Size(173, 46);
             this.btnVerIngresos.TabIndex = 5;
@@ -192,11 +160,64 @@
             this.btnVerIngresos.UseVisualStyleBackColor = true;
             this.btnVerIngresos.Click += new System.EventHandler(this.btnVerIngresos_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txtSunat);
+            this.groupBox2.Controls.Add(this.txtManual);
+            this.groupBox2.Controls.Add(this.lblManual);
+            this.groupBox2.Controls.Add(this.lblSunat);
+            this.groupBox2.Location = new System.Drawing.Point(20, 95);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(390, 80);
+            this.groupBox2.TabIndex = 14;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Equivalencia";
+            // 
+            // lblSunat
+            // 
+            this.lblSunat.AutoSize = true;
+            this.lblSunat.Location = new System.Drawing.Point(14, 37);
+            this.lblSunat.Name = "lblSunat";
+            this.lblSunat.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblSunat.Size = new System.Drawing.Size(57, 21);
+            this.lblSunat.TabIndex = 15;
+            this.lblSunat.Text = "Sunat :";
+            // 
+            // lblManual
+            // 
+            this.lblManual.AutoSize = true;
+            this.lblManual.Location = new System.Drawing.Point(208, 37);
+            this.lblManual.Name = "lblManual";
+            this.lblManual.Size = new System.Drawing.Size(69, 21);
+            this.lblManual.TabIndex = 16;
+            this.lblManual.Text = "Manual :";
+            // 
+            // txtSunat
+            // 
+            this.txtSunat.Location = new System.Drawing.Point(77, 34);
+            this.txtSunat.Name = "txtSunat";
+            this.txtSunat.Size = new System.Drawing.Size(97, 29);
+            this.txtSunat.TabIndex = 15;
+            // 
+            // txtManual
+            // 
+            this.txtManual.Location = new System.Drawing.Point(283, 34);
+            this.txtManual.Name = "txtManual";
+            this.txtManual.Size = new System.Drawing.Size(96, 29);
+            this.txtManual.TabIndex = 16;
+            // 
+            // txtImporte
+            // 
+            this.txtImporte.Location = new System.Drawing.Point(303, 19);
+            this.txtImporte.Name = "txtImporte";
+            this.txtImporte.Size = new System.Drawing.Size(96, 29);
+            this.txtImporte.TabIndex = 8;
+            // 
             // FrmIngresos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 410);
+            this.ClientSize = new System.Drawing.Size(440, 357);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnVerIngresos);
@@ -208,6 +229,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -218,16 +241,18 @@
         private System.Windows.Forms.RadioButton rbtnDolares;
         private System.Windows.Forms.RadioButton rbtnSoles;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox txtMonto;
-        private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.RichTextBox txtDescripcion;
+        private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.Label lblMoneda;
-        private System.Windows.Forms.Label lblEquivalenteResultado;
-        private System.Windows.Forms.Label lblEquivalente;
-        private System.Windows.Forms.Label lblTipoCambio;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblCodigo;
+        private System.Windows.Forms.Label lblImporte;
+        private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnVerIngresos;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txtSunat;
+        private System.Windows.Forms.Label lblManual;
+        private System.Windows.Forms.Label lblSunat;
+        private System.Windows.Forms.TextBox txtManual;
+        private System.Windows.Forms.TextBox txtImporte;
     }
 }
