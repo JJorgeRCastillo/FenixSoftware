@@ -35,7 +35,8 @@ namespace FenixSoftware
 
                     if (objUsuario != null)
                     {
-                        AlertsHelper.GetInstance().InformationMessage("EXITO", "EXITO");
+                        FrmPrincipal ventana = new FrmPrincipal(objUsuario);
+                        ventana.Show();
                     }
                     else
                     {
