@@ -12,9 +12,24 @@ namespace FenixSoftware
 {
     public partial class FrmAsignaciones : Form
     {
+        private FrmVerAsignaciones frmVerAsignaciones;
+
         public FrmAsignaciones()
         {
             InitializeComponent();
+        }
+
+        private void btnVerAsignaciones_Click(object sender, EventArgs e)
+        {
+            if (frmVerAsignaciones == null)
+            {
+                frmVerAsignaciones = new FrmVerAsignaciones();
+                frmVerAsignaciones.Show();
+            }
+            else
+            {
+                frmVerAsignaciones.Show();
+            } 
         }
     }
 }

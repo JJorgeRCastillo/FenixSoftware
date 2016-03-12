@@ -12,9 +12,24 @@ namespace FenixSoftware
 {
     public partial class FrmIngresos : Form
     {
+        private FrmVerIngresos frmVerIngresos;
+
         public FrmIngresos()
         {
             InitializeComponent();
+        }
+
+        private void btnVerIngresos_Click(object sender, EventArgs e)
+        {
+            if (frmVerIngresos == null)
+            {
+                frmVerIngresos = new FrmVerIngresos();
+                frmVerIngresos.Show();
+            }
+            else
+            {
+                frmVerIngresos.Show();
+            }
         }
     }
 }

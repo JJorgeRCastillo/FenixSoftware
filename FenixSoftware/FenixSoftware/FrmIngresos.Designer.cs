@@ -190,6 +190,7 @@
             this.btnVerIngresos.TabIndex = 5;
             this.btnVerIngresos.Text = "VER INGRESOS";
             this.btnVerIngresos.UseVisualStyleBackColor = true;
+            this.btnVerIngresos.Click += new System.EventHandler(this.btnVerIngresos_Click);
             // 
             // FrmIngresos
             // 

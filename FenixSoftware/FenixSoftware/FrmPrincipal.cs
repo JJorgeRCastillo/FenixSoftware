@@ -15,6 +15,9 @@ namespace FenixSoftware
     public partial class FrmPrincipal : Form
     {
         private FrmAbrirCaja frmAbrirCaja;
+        private FrmIngresos frmIngresos;
+        private FrmAsignaciones frmAsignaciones;
+
 
         public FrmPrincipal(Usuario objUsuario)
         {
@@ -46,6 +49,32 @@ namespace FenixSoftware
             }
 
 
+        }
+
+        private void ingresosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frmIngresos == null)
+            {
+                frmIngresos = new FrmIngresos();
+                frmIngresos.Show();
+            }
+            else
+            {
+                frmIngresos.Show();
+            }
+        }
+
+        private void asignacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frmAsignaciones == null)
+            {
+                frmAsignaciones = new FrmAsignaciones();
+                frmAsignaciones.Show();
+            }
+            else
+            {
+                frmAsignaciones.Show();
+            }
         }
     }
 }

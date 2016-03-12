@@ -82,7 +82,7 @@
             this.ingresosToolStripMenuItem,
             this.asignacionesToolStripMenuItem});
             this.cajaDiariaToolStripMenuItem.Name = "cajaDiariaToolStripMenuItem";
-            this.cajaDiariaToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.cajaDiariaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.cajaDiariaToolStripMenuItem.Text = "Caja Diaria";
             // 
             // abrirCajaToolStripMenuItem
@@ -97,12 +97,14 @@
             this.ingresosToolStripMenuItem.Name = "ingresosToolStripMenuItem";
             this.ingresosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ingresosToolStripMenuItem.Text = "Ingresos";
+            this.ingresosToolStripMenuItem.Click += new System.EventHandler(this.ingresosToolStripMenuItem_Click);
             // 
             // asignacionesToolStripMenuItem
             // 
             this.asignacionesToolStripMenuItem.Name = "asignacionesToolStripMenuItem";
             this.asignacionesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.asignacionesToolStripMenuItem.Text = "Asignaciones";
+            this.asignacionesToolStripMenuItem.Click += new System.EventHandler(this.asignacionesToolStripMenuItem_Click);
             // 
             // almacenToolStripMenuItem
             // 
