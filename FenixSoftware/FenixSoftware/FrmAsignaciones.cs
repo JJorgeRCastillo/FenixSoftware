@@ -21,15 +21,8 @@ namespace FenixSoftware
 
         private void btnVerAsignaciones_Click(object sender, EventArgs e)
         {
-            if (frmVerAsignaciones == null)
-            {
-                frmVerAsignaciones = new FrmVerAsignaciones();
-                frmVerAsignaciones.Show();
-            }
-            else
-            {
-                frmVerAsignaciones.Show();
-            } 
+            frmVerAsignaciones = new FrmVerAsignaciones();
+            frmVerAsignaciones.Show();
         }
     }
 }

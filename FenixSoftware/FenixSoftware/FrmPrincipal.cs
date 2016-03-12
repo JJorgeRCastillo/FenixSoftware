@@ -22,7 +22,6 @@ namespace FenixSoftware
         public FrmPrincipal(Usuario objUsuario)
         {
             InitializeComponent();
-            
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.Width = jpnPrincipal.Width;
             pictureBox1.Height = jpnPrincipal.Height;
@@ -38,43 +37,24 @@ namespace FenixSoftware
 
         private void abrirCajaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (frmAbrirCaja == null)
-            {
-                frmAbrirCaja = new FrmAbrirCaja();
-                frmAbrirCaja.Show();
-            }
-            else
-            {
-                frmAbrirCaja.Show();
-            }
+            frmAbrirCaja = new FrmAbrirCaja();
+            frmAbrirCaja.Show();
 
 
         }
 
         private void ingresosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (frmIngresos == null)
-            {
-                frmIngresos = new FrmIngresos();
-                frmIngresos.Show();
-            }
-            else
-            {
-                frmIngresos.Show();
-            }
+            frmIngresos = new FrmIngresos();
+            frmIngresos.Show();
+
         }
 
         private void asignacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (frmAsignaciones == null)
-            {
-                frmAsignaciones = new FrmAsignaciones();
-                frmAsignaciones.Show();
-            }
-            else
-            {
-                frmAsignaciones.Show();
-            }
+            frmAsignaciones = new FrmAsignaciones();
+            frmAsignaciones.Show();
+
         }
     }
 }

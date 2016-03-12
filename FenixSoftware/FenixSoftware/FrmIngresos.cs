@@ -21,15 +21,8 @@ namespace FenixSoftware
 
         private void btnVerIngresos_Click(object sender, EventArgs e)
         {
-            if (frmVerIngresos == null)
-            {
-                frmVerIngresos = new FrmVerIngresos();
-                frmVerIngresos.Show();
-            }
-            else
-            {
-                frmVerIngresos.Show();
-            }
+            frmVerIngresos = new FrmVerIngresos();
+            frmVerIngresos.Show();
         }
     }
 }
